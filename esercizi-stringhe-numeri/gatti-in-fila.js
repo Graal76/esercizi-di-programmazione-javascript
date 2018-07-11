@@ -12,4 +12,11 @@
   Hint: Se vuoi usare l'arrotondamento ti consiglio di non usare Math.round (arrotonda all'intero superiore solo da .5 in su) ma utilizza Math.ceil (arrotonda sempre all'intero superiore).
   http://www.imparareaprogrammare.it
 */
-var cat =44;
+var cat = 44;
+var catline = 6;
+var line = Math.ceil(cat/catline);
+var catlost = (cat%catline)
+console.log("Numero di gatti=",cat);
+console.log("Numero di gatti per fila=", catline);
+console.log("Numero di file=",line);
+console.log("Gatti mancanti=", catlost);
