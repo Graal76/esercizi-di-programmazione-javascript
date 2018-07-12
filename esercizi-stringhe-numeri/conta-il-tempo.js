@@ -7,4 +7,8 @@
   http://www.imparareaprogrammare.it
 */
 
-var time = 0;
+var time = 12560;
+var hour = Math.round(time/3600);
+var minutes =Math.round((time%3600)/60);
+var seconds =Math.round((time%3600)%60);
+console.log("Hour:",hour,"Minutes:",minutes,"Seconds:",seconds);
